@@ -13,137 +13,147 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-        <a class="navbar-brand" href="../index.html">Perfume Brand</a>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto ">
-                <li class="nav-item"><a class="nav-link" href="/about/about.html">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="/products/products.html">Products</a></li>
-                <!-- <li class="nav-item"><a class="nav-link" href="/cart/cart.html">Cart</a></li> -->
-                <li class="nav-item"><a class="nav-link" href="/wishlist/wishlist.html">Wishlist</a></li>
-                <li class="nav-item"><a class="nav-link" href="/contact/contact.html">Contact</a></li>
-            </ul>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">Perfume Brand</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item"><a class="nav-link" href="/about/about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/products/products.html">Products</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="/cart/cart.html">Cart</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="/wishlist/wishlist.html">Wishlist</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contact/contact.html">Contact</a></li>
+                </ul>
+            </div>
 
-        <div class="ms-auto d-flex justify-content-center align-items-center">
-            <button class="btn btn-light position-relative" id="cart-btn">
-                🛒 Cart <span class="badge bg-danger" id="cart-count">0</span>
-            </button>
-            <div class="cart-dropdown" id="cart-dropdown">
-                <ul class="list-group" id="cart-items"></ul>
-                <p class="mt-2 text-end">Total: <strong id="cart-total">$0.00</strong></p>
+            <div class="ms-auto d-flex justify-content-center align-items-center">
+                <button class="btn btn-light position-relative" id="cart-btn">
+                    🛒 Cart <span class="badge bg-danger" id="cart-count">0</span>
+                </button>
+                <div class="cart-dropdown" id="cart-dropdown">
+                    <ul class="list-group" id="cart-items"></ul>
+                    <p class="mt-2 text-end">Total: <strong id="cart-total">$0.00</strong></p>
+                </div>
             </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
-   
+
 
     <div class="container-fluid my-5">
         <h1 class="text-center mb-4">Our Products</h1>
-    
+
         <div class="row g-4">
             <!-- Product 1 -->
-            
+
 
             <div class="col-md-4">
                 <div class="card">
-                    <img src="../assets/images/Perfume1.png" class="card-img-top" height="250px" width="424px" alt="Perfume 3">
+                    <img src="../assets/images/Perfume1.png" class="card-img-top" height="250px" width="424px"
+                        alt="Perfume 3">
                     <div class="card-body text-center">
                         <h5 class="card-title">Luxury Perfume</h5>
                         <p class="card-text">$99.99</p>
                         <button class="btn btn-primary add-to-cart" data-name="Luxury Perfume" data-price="99.99">Add to
                             Cart</button>
-                        <button class="btn btn-outline-danger add-to-wishlist" data-name="Luxury Perfume" data-price="99.99"
-                            data-image="../assets/images/Perfume1.png">Add to Wishlist</button>
-            
+                        <button class="btn btn-outline-danger add-to-wishlist" data-name="Luxury Perfume"
+                            data-price="99.99" data-image="../assets/images/Perfume1.png">Add to Wishlist</button>
+
                     </div>
                 </div>
             </div>
-    
+
             <!-- Product 2 -->
-            
+
 
             <div class="col-md-4">
                 <div class="card">
-                    <img src="../assets/images/perfume2.jpg" class="card-img-top" height="250px" width="424px" alt="Perfume 3">
+                    <img src="../assets/images/perfume22.jpg" class="card-img-top" height="250px" width="424px"
+                        alt="Perfume 3">
                     <div class="card-body text-center">
                         <h5 class="card-title">Elegant Fragrance</h5>
                         <p class="card-text">$79.99</p>
-                        <button class="btn btn-primary add-to-cart" data-name="Elegant Fragrance" data-price="79.99">Add to
+                        <button class="btn btn-primary add-to-cart" data-name="Elegant Fragrance" data-price="79.99">Add
+                            to
                             Cart</button>
-                        <button class="btn btn-outline-danger add-to-wishlist" data-name="Elegant Fragrance" data-price="79.99"
-                            data-image="../assets/images/Perfume2.jpg">Add to Wishlist</button>
-            
+                        <button class="btn btn-outline-danger add-to-wishlist" data-name="Elegant Fragrance"
+                            data-price="79.99" data-image="../assets/images/perfume22.jpg">Add to Wishlist</button>
+
                     </div>
                 </div>
             </div>
-    
+
             <!-- Product 3 -->
-           
+
 
 
             <div class="col-md-4">
                 <div class="card">
-                    <img src="../assets/images/perfume3.jpg" class="card-img-top" height="250px" width="424px" alt="Perfume 3">
+                    <img src="../assets/images/perfume3.jpg" class="card-img-top" height="250px" width="424px"
+                        alt="Perfume 3">
                     <div class="card-body text-center">
                         <h5 class="card-title">Classic Aroma</h5>
                         <p class="card-text">$89.99</p>
                         <button class="btn btn-primary add-to-cart" data-name="Classic Aroma" data-price="89.99">Add to
                             Cart</button>
-                        <button class="btn btn-outline-danger add-to-wishlist" data-name="Classic Aroma" data-price="89.99"
-                            data-image="../assets/images/perfume3.jpg">Add to Wishlist</button>
-            
+                        <button class="btn btn-outline-danger add-to-wishlist" data-name="Classic Aroma"
+                            data-price="89.99" data-image="../assets/images/perfume3.jpg">Add to Wishlist</button>
+
                     </div>
                 </div>
             </div>
-    
+
             <!-- Product 4 -->
-           
+
 
 
             <div class="col-md-4">
                 <div class="card">
-                    <img src="../assets/images/perfume4.jpg" class="card-img-top" height="250px" width="424px" alt="Perfume 4">
+                    <img src="../assets/images/perfume4.jpg" class="card-img-top" height="250px" width="424px"
+                        alt="Perfume 4">
                     <div class="card-body text-center">
                         <h5 class="card-title">Signature Scent</h5>
                         <p class="card-text">$109.99</p>
-                        <button class="btn btn-primary add-to-cart" data-name="Signature Scent" data-price="109.99">Add to
+                        <button class="btn btn-primary add-to-cart" data-name="Signature Scent" data-price="109.99">Add
+                            to
                             Cart</button>
-                        <button class="btn btn-outline-danger add-to-wishlist" data-name="Signature Scent" data-price="109.99"
-                            data-image="../assets/images/perfume4.jpg">Add to Wishlist</button>
-            
+                        <button class="btn btn-outline-danger add-to-wishlist" data-name="Signature Scent"
+                            data-price="109.99" data-image="../assets/images/perfume4.jpg">Add to Wishlist</button>
+
                     </div>
                 </div>
             </div>
-    
+
             <!-- Product 5 -->
-           
+
 
 
             <div class="col-md-4">
                 <div class="card">
-                    <img src="../assets/images/perfume5.jpg" class="card-img-top" height="250px" width="424px" alt="Perfume 6">
+                    <img src="../assets/images/perfume5.jpg" class="card-img-top" height="250px" width="424px"
+                        alt="Perfume 6">
                     <div class="card-body text-center">
                         <h5 class="card-title">Mystic Essence</h5>
                         <p class="card-text">$69.99</p>
-                        <button class="btn btn-primary add-to-cart" data-name="Mystic Essence" data-price="69.99">Add to Cart</button>
-                        <button class="btn btn-outline-danger add-to-wishlist" data-name="Mystic Essence" data-price="69.99"
-                            data-image="../assets/images/perfume5.jpg">Add to Wishlist</button>
-            
+                        <button class="btn btn-primary add-to-cart" data-name="Mystic Essence" data-price="69.99">Add to
+                            Cart</button>
+                        <button class="btn btn-outline-danger add-to-wishlist" data-name="Mystic Essence"
+                            data-price="69.99" data-image="../assets/images/perfume5.jpg">Add to Wishlist</button>
+
                     </div>
                 </div>
             </div>
-    
+
             <!-- Product 6 -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="../assets/images/perfume6.jpg" class="card-img-top" height="250px" width="424px" alt="Perfume 6">
+                    <img src="../assets/images/perfume6.jpg" class="card-img-top" height="250px" width="424px"
+                        alt="Perfume 6">
                     <div class="card-body text-center">
                         <h5 class="card-title">Royal Oud</h5>
                         <p class="card-text">$119.99</p>
-                        <button class="btn btn-primary add-to-cart" data-name="Royal Oud" data-price="119.99">Add to Cart</button>
+                        <button class="btn btn-primary add-to-cart" data-name="Royal Oud" data-price="119.99">Add to
+                            Cart</button>
                         <button class="btn btn-outline-danger add-to-wishlist" data-name="Royal Oud" data-price="119.99"
                             data-image="../assets/images/perfume6.jpg">Add to Wishlist</button>
 
@@ -151,13 +161,13 @@
                 </div>
             </div>
 
-    
+
         </div>
     </div>
 
 </body>
 <script>
-   document.addEventListener("DOMContentLoaded", () => {
+    document.addEventListener("DOMContentLoaded", () => {
         const wishlistButtons = document.querySelectorAll(".add-to-wishlist");
 
         wishlistButtons.forEach(button => {
@@ -187,7 +197,7 @@
 
 <script>
 
-   document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function () {
         const cartBtn = document.getElementById("cart-btn");
         const cartCount = document.getElementById("cart-count");
         const cartItemsContainer = document.getElementById("cart-items");
@@ -249,4 +259,5 @@
     });
 
 </script>
+
 </html>
